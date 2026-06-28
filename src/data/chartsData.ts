@@ -8,7 +8,7 @@ import { TableInfo } from "../types";
 export const tablesData: TableInfo[] = [
   {
     tableNo: "4.1",
-    title: "Elements that led to invest with India Bulls",
+    title: "Elements that led to invest with Indiabulls",
     source: "Author's Compilation",
     columns: ["Factors", "Percentage (%)", "Respondents"],
     data: [
@@ -18,11 +18,11 @@ export const tablesData: TableInfo[] = [
       { Factors: "Word Of Mouth", "Percentage (%)": 14, Respondents: 14 },
       { Factors: "Advertisement", "Percentage (%)": 6, Respondents: 6 },
     ],
-    interpretation: "Safety is cited as the factor that has the most impact on investing in mutual funds through India Bulls. 42% of investors select safety, followed by Bank Services (20%), Historical/Past Experience (18%), Word of Mouth (14%), and Advertisements (6%)."
+    interpretation: "Safety is cited as the factor that has the most impact on investing in mutual funds with Indiabulls. 42% of investors select safety, followed by Bank Services (20%), Historical/Past Experience (18%), Word of Mouth (14%), and Advertisements (6%)."
   },
   {
     tableNo: "4.2",
-    title: "Degree of satisfaction with India Bulls services",
+    title: "Degree of satisfaction with Indiabulls services",
     source: "Author's Compilation",
     columns: ["Degree of Satisfaction", "Percentage (%)", "Respondents"],
     data: [
@@ -31,7 +31,7 @@ export const tablesData: TableInfo[] = [
       { "Degree of Satisfaction": "Dissatisfied To Lesser Extent", "Percentage (%)": 5, Respondents: 5 },
       { "Degree of Satisfaction": "Extremely Dissatisfied", "Percentage (%)": 5, Respondents: 5 },
     ],
-    interpretation: "A resounding majority (80%) of surveyed investors were extremely satisfied with India Bulls' services, 10% were satisfied to a lesser extent, and 10% experienced dissatisfaction (5% to a lesser extent and 5% extremely dissatisfied)."
+    interpretation: "A resounding majority (80%) of surveyed investors were extremely satisfied with Indiabulls' services, 10% were satisfied to a lesser extent, and 10% experienced dissatisfaction (5% to a lesser extent and 5% extremely dissatisfied)."
   },
   {
     tableNo: "4.3",

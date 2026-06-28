@@ -83,7 +83,7 @@ export default function InteractiveSurvey() {
     if (goal === "Safety" || avenue === "Fixed deposits" || avenue === "Insurance") {
       return {
         title: "Conservative & Security-Focused",
-        description: "You heavily prioritize the preservation of your principal capital and prefer structured safety over high-yielding speculative avenues. You align with 42% of the India Bulls survey participants who cite Safety as the single most critical parameter.",
+        description: "You heavily prioritize the preservation of your principal capital and prefer structured safety over high-yielding speculative avenues. You align with 42% of the Indiabulls survey participants who cite Safety as the single most critical parameter.",
         strategy: "Consider Debt Mutual Funds, Fixed Maturity Plans (FMPs), and Large Cap blue-chip options.",
       };
     } else if (goal === "Capital appreciation" && (horizon === "Long-term" || avenue === "Stock market")) {
@@ -205,7 +205,7 @@ export default function InteractiveSurvey() {
               {/* 4. Influence */}
               <div className="space-y-1.5">
                 <label className="text-xs font-bold text-slate-700">
-                  4. What element most influences your choices with India Bulls?
+                  4. What element most influences your choices with Indiabulls?
                 </label>
                 <div className="grid grid-cols-2 gap-2">
                   {["Safety", "Bank services", "Historical performance", "Word of mouth", "Advertising"].map((opt) => (

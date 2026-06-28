@@ -65,7 +65,7 @@ export const chaptersData: Chapter[] = [
         title: "1.4 Scope of the Study",
         page: 22,
         content: [
-          "➢ The geographical scope of the study is centered on India Bulls Securities Limited and India Bulls Finance Company in Hyderabad, India.",
+          "➢ The geographical scope of the study is centered on Indiabulls Securities Limited and Indiabulls Finance Company in Hyderabad, India.",
           "➢ The analysis focuses primarily on open-ended equity plans from various high-performing Asset Management Companies (AMCs) including SBI, Franklin Templeton, HDFC, Birla, Reliance, and UTI.",
           "➢ The empirical study evaluates how individual schemes perform relative to one another based on survey feedback from 50 walk-in clients."
         ]
@@ -122,7 +122,7 @@ export const chaptersData: Chapter[] = [
         page: 26,
         content: [
           "➢ The temporal scope of the study was limited, covering a specified study period.",
-          "➢ Access was restricted only to the clients of India Bulls Finance & Securities in Hyderabad.",
+          "➢ Access was restricted only to the clients of Indiabulls Finance & Securities in Hyderabad.",
           "➢ The analysis is heavily focused on open-ended equity schemes from selected AMCs.",
           "➢ Personal tax situations and individual portfolios were not modeled exhaustively.",
           "➢ High cost-to-income ratios and initial sales charges were not deeply evaluated mathematically.",
@@ -277,8 +277,8 @@ export const chaptersData: Chapter[] = [
         page: 62,
         content: [
           "Based on the empirical analysis of the 50 surveyed respondents:",
-          "➢ Safety is the primary consideration. 42% cite safety as their primary driver to invest with India Bulls. Bank services (20%), past experience (18%), and word of mouth (14%) follow.",
-          "➢ High Client Satisfaction: 80% of respondents were extremely satisfied with India Bulls' services, 10% satisfied to a lesser extent, and only 10% experienced dissatisfaction.",
+          "➢ Safety is the primary consideration. 42% cite safety as their primary driver to invest with Indiabulls. Bank services (20%), past experience (18%), and word of mouth (14%) follow.",
+          "➢ High Client Satisfaction: 80% of respondents were extremely satisfied with Indiabulls' services, 10% satisfied to a lesser extent, and only 10% experienced dissatisfaction.",
           "➢ Demographic Profile: The business class is the single largest demographic (43%), followed by students (19%), retired individuals (14%), and professionals (13%).",
           "➢ Income & Savings: 38% earn between ₹2-3 Lakhs, and 35% earn ₹1-2 Lakhs. Saving-wise, 33% save between ₹25,000-50,000 annually, while 30% save ₹50,000-1,00,000.",
           "➢ Trust in Mutual Funds: 80% believe that investing in mutual funds is a reputable and less hazardous option than direct stock market speculation.",
@@ -311,7 +311,7 @@ export const chaptersData: Chapter[] = [
           "Key Conclusions:",
           "• Investors show a high affinity towards mutual funds as a safer, professionally managed alternative to highly volatile direct equity markets.",
           "• Safety of the principal capital remains the ultimate driving motivation across all demographic profiles, with Franklin Templeton, SBI, and HDFC leading the market share.",
-          "• India Bulls has established a high rate of client satisfaction (80% extremely satisfied) thanks to its robust customer care and diverse depository and equity services.",
+          "• Indiabulls has established a high rate of client satisfaction (80% extremely satisfied) thanks to its robust customer care and diverse depository and equity services.",
           "• To unlock the next wave of retail growth, the industry must expand financial literacy, leverage digital software, and actively recruit qualified AMFI-certified advisors."
         ]
       },

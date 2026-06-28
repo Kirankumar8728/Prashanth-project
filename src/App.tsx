@@ -90,13 +90,13 @@ export default function App() {
                 Academic Project Report Companion
               </h2>
               <p className="text-xs md:text-sm text-slate-500 leading-relaxed max-w-2xl">
-                Exploring the research on <strong className="text-slate-800 italic">&ldquo;Investors Preferences on mutual funds through Indiabull with reference to India Bulls Securities Pvt Limited&rdquo;</strong> submitted to Malla Reddy Engineering College (Autonomous).
+                Exploring the research on <strong className="text-slate-800 italic">&ldquo;Investors Preferences on mutual funds with reference to Indiabulls Securities Pvt Limited&rdquo;</strong> submitted to Malla Reddy Engineering College (Autonomous).
               </p>
             </div>
             <div className="flex gap-4 items-center shrink-0 border-t md:border-t-0 pt-4 md:pt-0 w-full md:w-auto justify-center">
               <div className="text-center bg-slate-50 px-4 py-2.5 rounded-xl border border-slate-100">
                 <span className="block text-[10px] text-slate-400 font-mono uppercase">Author</span>
-                <span className="text-xs font-bold text-slate-700">Edulapally P. Kumar</span>
+                <span className="text-xs font-bold text-slate-700">Edulapally Prashanth Kumar</span>
               </div>
               <div className="text-center bg-slate-50 px-4 py-2.5 rounded-xl border border-slate-100">
                 <span className="block text-[10px] text-slate-400 font-mono uppercase">Advisor</span>

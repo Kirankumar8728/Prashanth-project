@@ -6,9 +6,10 @@
 import React, { useState } from "react";
 import { Award, Briefcase, CheckCircle, FileText, Landmark, ShieldCheck, User, Users } from "lucide-react";
 import { motion } from "motion/react";
+import { MrecLogo, NaacLogo } from "./Logos";
 
 export default function CoverPage() {
-  const [activeCert, setActiveCert] = useState<"cover" | "college" | "decl" | "ack" | "corp" | "plag">("cover");
+  const [activeCert, setActiveCert] = useState<"cover" | "college" | "decl" | "ack" | "corp">("cover");
 
   const certificates = [
     { id: "cover", label: "Cover Page", icon: FileText },
@@ -16,7 +17,6 @@ export default function CoverPage() {
     { id: "decl", label: "Declaration", icon: CheckCircle },
     { id: "ack", label: "Acknowledgement", icon: Users },
     { id: "corp", label: "Indiabulls Certificate", icon: Briefcase },
-    { id: "plag", label: "Plagiarism Report", icon: ShieldCheck },
   ];
 
   return (
@@ -55,7 +55,7 @@ export default function CoverPage() {
             <div>
               <span className="text-xs uppercase tracking-[0.2em] text-slate-500 font-semibold">A Project Report</span>
               <h1 className="mt-4 text-2xl md:text-3xl font-bold tracking-tight text-slate-900 font-sans leading-snug">
-                “Investors Preferences on mutual funds through Indiabull with reference to India Bulls Securities pvt Limited”
+                “Investors Preferences on mutual funds with reference to Indiabulls Securities pvt Limited”
               </h1>
               <p className="mt-6 text-xs text-slate-500 italic">
                 Submitted in partial fulfilment for the award of Degree of
@@ -83,12 +83,7 @@ export default function CoverPage() {
 
             <div className="flex flex-col items-center gap-3">
               {/* Logo Vector */}
-              <div className="w-16 h-16 rounded-full bg-emerald-50 border-2 border-emerald-600 flex items-center justify-center p-1 shadow-sm">
-                <div className="text-center">
-                  <span className="block text-[8px] font-bold text-emerald-800 font-sans leading-none">MREC</span>
-                  <span className="block text-[6px] font-semibold text-emerald-600 uppercase tracking-widest mt-1">Malla Reddy</span>
-                </div>
-              </div>
+              <MrecLogo className="w-16 h-16 shadow-sm hover:scale-105 transition-transform duration-300" />
 
               <div>
                 <h3 className="text-sm font-bold text-slate-900 tracking-wider uppercase">
@@ -117,9 +112,7 @@ export default function CoverPage() {
             {/* Header branding */}
             <div className="flex items-center justify-between border-b border-slate-100 pb-6">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full bg-emerald-50 border border-emerald-500 flex items-center justify-center p-1">
-                  <span className="text-[9px] font-bold text-emerald-700">MREC</span>
-                </div>
+                <MrecLogo className="w-14 h-14 hover:scale-105 transition-transform duration-300" />
                 <div>
                   <h2 className="text-sm md:text-md font-bold text-red-600 leading-tight uppercase">
                     MALLA REDDY ENGINEERING COLLEGE
@@ -132,10 +125,7 @@ export default function CoverPage() {
                   </p>
                 </div>
               </div>
-              <div className="w-12 h-12 rounded-full bg-amber-50 border border-amber-400 flex flex-col items-center justify-center p-1 text-center">
-                <span className="text-[8px] font-bold text-amber-700 leading-none">A++</span>
-                <span className="text-[6px] text-slate-500 leading-none font-semibold uppercase mt-0.5">NAAC</span>
-              </div>
+              <NaacLogo className="w-14 h-14 hover:scale-105 transition-transform duration-300" />
             </div>
 
             <div className="text-center py-2">
@@ -146,7 +136,7 @@ export default function CoverPage() {
             </div>
 
             <p className="text-sm leading-relaxed text-slate-700 text-justify indent-8">
-              This is to certify that the project <strong className="text-slate-900 italic">“Investors Preferences on mutual funds through Indiabull with reference to India Bulls Securities pvt Limited”</strong> Submitted by <strong className="text-slate-900">EDULAPALLY PRASHANTH KUMAR</strong> bearing <strong className="text-slate-900 font-mono">Reg. No: 24J41E0018</strong> of the Department of <strong className="text-slate-900">MASTER OF BUSINESS ADMINISTRATION</strong> of this college has done Bonafide work under my guidance submitted to <strong className="text-slate-900">MALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)</strong> for the award of Degree of Master of Business Administration.
+              This is to certify that the project <strong className="text-slate-900 italic">“Investors Preferences on mutual funds with reference to Indiabulls Securities pvt Limited”</strong> Submitted by <strong className="text-slate-900">EDULAPALLY PRASHANTH KUMAR</strong> bearing <strong className="text-slate-900 font-mono">Reg. No: 24J41E0018</strong> of the Department of <strong className="text-slate-900">MASTER OF BUSINESS ADMINISTRATION</strong> of this college has done Bonafide work under my guidance submitted to <strong className="text-slate-900">MALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)</strong> for the award of Degree of Master of Business Administration.
             </p>
 
             <div className="grid grid-cols-3 gap-4 pt-12 text-center text-xs text-slate-600">
@@ -191,7 +181,7 @@ export default function CoverPage() {
             </div>
 
             <p className="text-sm leading-relaxed text-slate-700 text-justify indent-8">
-              I, <strong className="text-slate-900">EDULAPALLY PRASHANTH KUMAR</strong>, bearing <strong className="text-slate-900 font-mono">Reg. No: 24J41E0018</strong>, hereby declare that the project report on <strong className="text-slate-900 italic">“Investors Preferences on mutual funds through Indiabull with reference to India Bulls Securities pvt Limited”</strong> has been carried out and submitted by me, under the guidance of <strong className="text-slate-900">DR. M.P. SURI GANESH</strong> Assistant Professor, Department of MBA, <strong className="text-slate-900">MALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)</strong>.
+              I, <strong className="text-slate-900">EDULAPALLY PRASHANTH KUMAR</strong>, bearing <strong className="text-slate-900 font-mono">Reg. No: 24J41E0018</strong>, hereby declare that the project report on <strong className="text-slate-900 italic">“Investors Preferences on mutual funds with reference to Indiabulls Securities pvt Limited”</strong> has been carried out and submitted by me, under the guidance of <strong className="text-slate-900">DR. M.P. SURI GANESH</strong> Assistant Professor, Department of MBA, <strong className="text-slate-900">MALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)</strong>.
             </p>
 
             <p className="text-sm leading-relaxed text-slate-700 text-justify indent-8">
@@ -236,7 +226,7 @@ export default function CoverPage() {
                 I convey my special thanks to <strong className="text-slate-900">DR. P. RAVINDER REDDY</strong>, Principal MREC, and <strong className="text-slate-900">DR. K. PUSHPA LATHA</strong>, Head of the Department of Master of Business Administration, for their valuable advices in the course of my project work.
               </p>
               <p>
-                I express my deepest gratitude to the management of <strong className="text-slate-900">India Bulls Securities pvt Limited Hyderabad</strong>, for permitting me to undertake the project work in their esteemed company. I also express my sincere thanks to <strong className="text-slate-900">Ms. RACHEL SHALINI</strong>, Assistant Manager, for her help and cooperation throughout the course of my project.
+                I express my deepest gratitude to the management of <strong className="text-slate-900">Indiabulls Securities pvt Limited Hyderabad</strong>, for permitting me to undertake the project work in their esteemed company. I also express my sincere thanks to <strong className="text-slate-900">Ms. RACHEL SHALINI</strong>, Assistant Manager, for her help and cooperation throughout the course of my project.
               </p>
               <p>
                 I would like to thank my friends for sharing the resources required for successful completion of this project. Lastly, I also acknowledge with humble gratitude to my parents for their continuous support.
@@ -287,7 +277,7 @@ export default function CoverPage() {
             </div>
 
             <p className="text-sm leading-relaxed text-slate-700 text-justify indent-8">
-              This is to certify that <strong className="text-slate-950">Edulapalli Prashanth Kumar</strong>, bearing Roll No: <strong className="text-slate-950 font-mono">24J41E0018</strong>, Student of Master of Business Administration (Finance) from <strong className="text-slate-950">Malla Reddy Engineering College</strong>, has successfully completed his academic project work title <strong className="text-slate-950 italic">“A Project Report: Investors Prefer Mutual Funds Via India bulls Securities, Attracted by Diversification, Expert Management, and Liquidity to India Bulls Securities Limited.”</strong>, his duration of 45 days, in India Bulls Securities Limited under our guidance.
+              This is to certify that <strong className="text-slate-950">Edulapally Prashanth Kumar</strong>, bearing Roll No: <strong className="text-slate-950 font-mono">24J41E0018</strong>, Student of Master of Business Administration (Finance) from <strong className="text-slate-950">Malla Reddy Engineering College</strong>, has successfully completed his academic project work title <strong className="text-slate-950 italic">“A Project Report: Investors Prefer Mutual Funds Via Indiabulls Securities, Attracted by Diversification, Expert Management, and Liquidity to Indiabulls Securities Limited.”</strong>, his duration of 45 days, in Indiabulls Securities Limited under our guidance.
             </p>
 
             <p className="text-sm leading-relaxed text-slate-700 text-justify indent-8">
@@ -309,87 +299,8 @@ export default function CoverPage() {
                 <p className="font-semibold text-slate-500">For HR Manager</p>
                 <div className="h-6 w-32 border-b border-slate-200 ml-auto my-2"></div>
                 <p className="font-bold uppercase text-slate-900">G. SATISH KUMAR</p>
-                <p className="text-[10px] text-slate-400 font-mono mt-0.5">India Bulls Securities Ltd.</p>
+                <p className="text-[10px] text-slate-400 font-mono mt-0.5">Indiabulls Securities Ltd.</p>
               </div>
-            </div>
-          </motion.div>
-        )}
-
-        {activeCert === "plag" && (
-          <motion.div
-            id="plagiarism-report"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="border border-slate-200 p-8 rounded-xl bg-white shadow-sm space-y-6 text-slate-800"
-          >
-            {/* Plagiarism report layout */}
-            <div className="flex items-center justify-between border-b border-slate-100 pb-4">
-              <div className="flex items-center gap-2">
-                <Award className="w-6 h-6 text-indigo-600" />
-                <div>
-                  <h1 className="text-md font-bold text-slate-900">DrillBit Similarity Report</h1>
-                  <p className="text-[9px] text-slate-400 uppercase font-mono leading-none">Plagiarism Detection Software</p>
-                </div>
-              </div>
-              <div className="px-3 py-1 bg-green-50 border border-green-200 rounded text-xs font-bold text-green-700">
-                A-Satisfactory (0-10%)
-              </div>
-            </div>
-
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-4 bg-slate-50 rounded-lg text-xs font-mono">
-              <div>
-                <span className="block text-slate-400 text-[10px] uppercase">Author Name</span>
-                <span className="font-bold text-slate-800">E Prasanth kumar</span>
-              </div>
-              <div>
-                <span className="block text-slate-400 text-[10px] uppercase">Paper ID</span>
-                <span className="font-bold text-indigo-700">592712</span>
-              </div>
-              <div>
-                <span className="block text-slate-400 text-[10px] uppercase">Submission Date</span>
-                <span className="font-bold text-slate-800">2026-06-01</span>
-              </div>
-              <div>
-                <span className="block text-slate-400 text-[10px] uppercase">Document Type</span>
-                <span className="font-bold text-slate-800">Dissertation</span>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 text-center">
-              <div className="p-4 border border-indigo-100 rounded-lg bg-indigo-50/20">
-                <span className="text-3xl font-black text-indigo-600">16%</span>
-                <span className="block text-[10px] text-slate-500 uppercase font-bold mt-1">Similarity Index</span>
-                <div className="w-full bg-slate-200 h-2 rounded-full mt-2 overflow-hidden">
-                  <div className="bg-indigo-600 h-full rounded-full" style={{ width: "16%" }}></div>
-                </div>
-              </div>
-
-              <div className="p-4 border border-indigo-100 rounded-lg bg-indigo-50/20">
-                <span className="text-3xl font-black text-slate-800">34</span>
-                <span className="block text-[10px] text-slate-500 uppercase font-bold mt-1">Matched Sources</span>
-                <p className="text-[10px] text-slate-400 mt-2">Relatively low overlaps</p>
-              </div>
-
-              <div className="p-4 border border-indigo-100 rounded-lg bg-indigo-50/20">
-                <span className="text-3xl font-black text-emerald-600">B</span>
-                <span className="block text-[10px] text-slate-500 uppercase font-bold mt-1">Grade Assigned</span>
-                <p className="text-[10px] text-slate-400 mt-2">Upgrade Category (11-40%)</p>
-              </div>
-            </div>
-
-            <div className="space-y-2 text-xs pt-2">
-              <h3 className="font-bold text-slate-900 border-b border-slate-100 pb-1">Exclude Information status:</h3>
-              <ul className="grid grid-cols-2 gap-x-6 gap-y-1 text-slate-600 font-mono text-[11px]">
-                <li>• Quotes: <strong>Not Excluded</strong></li>
-                <li>• Bibliography: <strong>Not Excluded</strong></li>
-                <li>• Excluded Source: <strong>0%</strong></li>
-                <li>• Sources &lt; 14 words: <strong>Not Excluded</strong></li>
-              </ul>
-            </div>
-
-            <div className="pt-4 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400 font-mono">
-              <p>Generated by DrillBit Anti-Plagiarism Scanner</p>
-              <p className="italic underline">View Verification Certificate</p>
             </div>
           </motion.div>
         )}
