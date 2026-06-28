@@ -8,7 +8,7 @@ export function MrecLogo({ className = "w-16 h-16" }: LogoProps) {
   return (
     <img
       id="mrec-logo-img"
-      src="https://images.jdmagicbox.com/comp/secunderabad/q4/040pxx40.xx40.111116124508.j6q4/catalogue/malla-reddy-engineering-college-maisammaguda-secunderabad-engineering-colleges-u2b0y1.jpg"
+      src="https://blogger.googleusercontent.com/img/a/AVvXsEhJcaPbVgxU9xa8ScI6aHgo7kYtIp9s4lDRl-fQsxMs1quPs2mvuFStsv3x5mMH7RVsSo-zF36tBD5Uelk_LIuE1n5nJUifPvTJV1Z4lCH62VtPVRFxAJpjGa4i5NPDN4MS66gxa2yI95k9CcOoq6ZudgZ8yT3ZhHS6U82s7_Ia9XJq8O5StpsjlubMFz0"
       alt="Malla Reddy Engineering College Logo"
       className={`${className} object-contain rounded-full bg-white`}
       referrerPolicy="no-referrer"
