@@ -1,6 +1,6 @@
 {
   "name": "Investors Preference on Mutual Funds",
-  "description": "An interactive digital companion for the MBA project report on Investors Preferences on mutual funds with reference to Indiabulls Securities Pvt Limited.",
+  "description": "An interactive digital companion for the MBA project report on Investors Preferences on mutual funds with reference to Indiabulls Securities Limited.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

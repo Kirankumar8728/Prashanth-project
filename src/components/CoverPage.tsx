@@ -55,7 +55,7 @@ export default function CoverPage() {
             <div>
               <span className="text-xs uppercase tracking-[0.2em] text-slate-500 font-semibold">A Project Report</span>
               <h1 className="mt-4 text-2xl md:text-3xl font-bold tracking-tight text-slate-900 font-sans leading-snug">
-                “Investors Preferences on mutual funds with reference to Indiabulls Securities pvt Limited”
+                “Investors Preferences on mutual funds with reference to Indiabulls Securities Limited”
               </h1>
               <p className="mt-6 text-xs text-slate-500 italic">
                 Submitted in partial fulfilment for the award of Degree of
@@ -136,7 +136,7 @@ export default function CoverPage() {
             </div>
 
             <p className="text-sm leading-relaxed text-slate-700 text-justify indent-8">
-              This is to certify that the project <strong className="text-slate-900 italic">“Investors Preferences on mutual funds with reference to Indiabulls Securities pvt Limited”</strong> Submitted by <strong className="text-slate-900">EDULAPALLY PRASHANTH KUMAR</strong> bearing <strong className="text-slate-900 font-mono">Reg. No: 24J41E0018</strong> of the Department of <strong className="text-slate-900">MASTER OF BUSINESS ADMINISTRATION</strong> of this college has done Bonafide work under my guidance submitted to <strong className="text-slate-900">MALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)</strong> for the award of Degree of Master of Business Administration.
+              This is to certify that the project <strong className="text-slate-900 italic">“Investors Preferences on mutual funds with reference to Indiabulls Securities Limited”</strong> Submitted by <strong className="text-slate-900">EDULAPALLY PRASHANTH KUMAR</strong> bearing <strong className="text-slate-900 font-mono">Reg. No: 24J41E0018</strong> of the Department of <strong className="text-slate-900">MASTER OF BUSINESS ADMINISTRATION</strong> of this college has done Bonafide work under my guidance submitted to <strong className="text-slate-900">MALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)</strong> for the award of Degree of Master of Business Administration.
             </p>
 
             <div className="grid grid-cols-3 gap-4 pt-12 text-center text-xs text-slate-600">
@@ -181,7 +181,7 @@ export default function CoverPage() {
             </div>
 
             <p className="text-sm leading-relaxed text-slate-700 text-justify indent-8">
-              I, <strong className="text-slate-900">EDULAPALLY PRASHANTH KUMAR</strong>, bearing <strong className="text-slate-900 font-mono">Reg. No: 24J41E0018</strong>, hereby declare that the project report on <strong className="text-slate-900 italic">“Investors Preferences on mutual funds with reference to Indiabulls Securities pvt Limited”</strong> has been carried out and submitted by me, under the guidance of <strong className="text-slate-900">DR. M.P. SURI GANESH</strong> Assistant Professor, Department of MBA, <strong className="text-slate-900">MALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)</strong>.
+              I, <strong className="text-slate-900">EDULAPALLY PRASHANTH KUMAR</strong>, bearing <strong className="text-slate-900 font-mono">Reg. No: 24J41E0018</strong>, hereby declare that the project report on <strong className="text-slate-900 italic">“Investors Preferences on mutual funds with reference to Indiabulls Securities Limited”</strong> has been carried out and submitted by me, under the guidance of <strong className="text-slate-900">DR. M.P. SURI GANESH</strong> Assistant Professor, Department of MBA, <strong className="text-slate-900">MALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)</strong>.
             </p>
 
             <p className="text-sm leading-relaxed text-slate-700 text-justify indent-8">
@@ -226,7 +226,7 @@ export default function CoverPage() {
                 I convey my special thanks to <strong className="text-slate-900">DR. P. RAVINDER REDDY</strong>, Principal MREC, and <strong className="text-slate-900">DR. K. PUSHPA LATHA</strong>, Head of the Department of Master of Business Administration, for their valuable advices in the course of my project work.
               </p>
               <p>
-                I express my deepest gratitude to the management of <strong className="text-slate-900">Indiabulls Securities pvt Limited Hyderabad</strong>, for permitting me to undertake the project work in their esteemed company. I also express my sincere thanks to <strong className="text-slate-900">Ms. RACHEL SHALINI</strong>, Assistant Manager, for her help and cooperation throughout the course of my project.
+                I express my deepest gratitude to the management of <strong className="text-slate-900">Indiabulls Securities Limited Hyderabad</strong>, for permitting me to undertake the project work in their esteemed company. I also express my sincere thanks to <strong className="text-slate-900">Ms. RACHEL SHALINI</strong>, Assistant Manager, for her help and cooperation throughout the course of my project.
               </p>
               <p>
                 I would like to thank my friends for sharing the resources required for successful completion of this project. Lastly, I also acknowledge with humble gratitude to my parents for their continuous support.
